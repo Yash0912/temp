@@ -1,0 +1,85 @@
+/* Info */
+.info {
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0.1, 0.12);
+
+  position: sticky;
+  top: 2%;
+  width: 21%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  margin: 1%;
+}
+.logoin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 7%;
+}
+.logoin img {
+  height: 12vh;
+}
+.info hr {
+  color: BLACK;
+}
+.logoin2 {
+  padding: 25px;
+  padding-top: 0;
+  justify-content: center;
+  width: 80%;
+}
+.logoin3 {
+  padding: 0px 25px 25px 25px;
+}
+.logoin2 h3 {
+  margin: 0;
+  padding: 0 0 2% 0;
+  color: black;
+  font-size: 130%;
+}
+.logoin3 h3 {
+  margin: 0;
+  padding: 0 0 30px 0;
+  color: black;
+  font-size: 95%;
+  border-bottom: 1px solid darkgray;
+}
+/* .infoquick {
+  margin: 0px 10px;
+  color: #1111f9;
+ 
+  padding: 0;
+}
+.infoquick h2 {
+    margin: 0;
+    padding:0;
+} */
+
+.infolist {
+    padding: 0;
+    margin: 0;
+}
+
+.infolist li{
+    list-style-type: none;
+    color: black;
+    font-size: 105%;  
+}
+
+.infolist h2{
+    margin-top: 0%;
+    color: #1111f9;
+}
+.infolist ol{
+    padding: 0;
+    margin: 0;
+}
+#infoli,#infoma{
+margin:0px 0px 15px 25px;
+}
+.infolist li:last-child {
+    padding-bottom: 20px;
+}

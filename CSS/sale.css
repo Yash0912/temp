@@ -1,0 +1,17 @@
+/* Sale */
+div.sale {
+  background-color: skyblue;
+  padding: 1%;
+}
+div.sale h2 {
+  color: black;
+  text-align: center;
+}
+
+.bod {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

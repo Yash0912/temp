@@ -1,0 +1,114 @@
+/*
+ARTICLES
+************************************************** */
+.b1 {
+  border: hidden;
+  /* width: 100%; */
+  border-radius: 10px;
+  background-color: #eeeeee;
+  /* background-color: #171717; */
+  padding: 20px;
+  margin-top: 20px;
+}
+.b1 h1 {
+  color: #000000;
+  /* color: #11ffff; */
+  margin: 0;
+}
+
+.b1 p {
+  color: #000000;
+  margin: 0;
+}
+
+.main {
+  /* margin:auto; */
+  width: 50%;
+}
+.blogs {
+    position: sticky;
+  top: 1%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* width: 100%; */
+}
+
+.blogs p {
+  font-size: 95%;
+}
+.b1 h1 {
+  font-size: 150%;
+}
+.b1 {
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0.0, 0.1, 0.12);
+}
+.b1:hover{
+  transform: scale(1.05);
+}
+
+#he {
+  color: #1111f9;
+  text-align: center;
+  
+}
+.hea {
+  /* position: sticky;
+  top: 20px; */
+  border-bottom: 2px solid #000000;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  margin-top: 30px;
+
+}
+.hea h1 {
+  color: BLACK;
+  /* color: white; */
+  font-size: 25px;
+}
+#b1bt1 {
+  float: right;
+}
+#b1bt1:hover {
+  transform: scale(1.1);
+}
+#b1bt2 {
+  padding: 6px 12px;
+  background-color: #1111f9;
+  color: white;
+  font-size: 85%;
+  border: hidden;
+  border-radius: 30px;
+  margin: 15px 0px;
+}
+
+/* Blogs List */
+
+.b1 ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+.b1 li {
+  color: black;
+  font-size: 85%;
+  margin: 0pc 8px 0px 8px;
+  padding: 8px 8px 0px 8px;
+}
+.b1 #b1li1 {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.b1 button {
+  margin-top: 1%;
+  padding: 3px 5px;
+  background-color: #1111f9;
+  color: white;
+  border: hidden;
+  border-radius: 5px;
+}
+
+/* End of article sec */
